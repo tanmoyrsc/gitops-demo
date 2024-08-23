@@ -4,7 +4,7 @@ metadata:
   name: vilas-app-1
   namespace: default
 spec:
-  interval: 15m
+  interval: 1m
   path: "./fluxcd/firstapp/tanmoy-app/deploy"
   prune: true
   sourceRef:
